@@ -1,0 +1,233 @@
+.filter {
+  background-color: #fafafc;
+  height: 100vh;
+  max-width: 331px;
+  padding: 38px 0 23px;
+  margin-right: 11px;
+}
+
+.text-filter {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.text-filter span {
+  padding-right: 15px;
+  color: #1c2d40;
+  font-weight: bold;
+}
+
+.text-filter:before {
+  content: "";
+  position: absolute;
+  background-color: #137bf4;
+  width: 4px;
+  height: 24px;
+  right: 0;
+  border-radius: 2px 0px 0px 2px;
+}
+
+.input-filter {
+  position: relative;
+  margin: 0 12px 18px 20px;
+  border-bottom: 2px solid rgba(19, 123, 244, 0.08);
+  padding-bottom: 34px;
+}
+
+.input-filter img {
+  position: absolute;
+  left: 8px;
+  top: 14px;
+}
+
+.input-filter input {
+  border: 1px solid #d2d3d9;
+  border-radius: 23px;
+  width: 100%;
+  padding: 9px 4px;
+}
+
+.input-filter input::placeholder {
+  font-size: 11px;
+  padding-right: 4px;
+}
+
+.dropdown-filter {
+  padding: 14px 14px 5px 14px;
+  margin-bottom: 18px;
+}
+
+.dropdown-filter p {
+  color: #76778c;
+  font-size: 13px;
+  margin-bottom: 6px;
+}
+
+.dropdown-strech {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.line-bottom {
+  justify-content: space-between;
+}
+
+.line-bottom:not(:last-child) {
+  border-bottom: 3px solid #e9e9e9;
+}
+
+.space-svg-icon {
+  display: flex !important;
+  justify-content: space-between !important;
+  border: 2px solid #d2d3d9 !important;
+  border-radius: 4px !important;
+  padding: 3px 17px 3px 9px !important;
+  width: 100%;
+  box-shadow: none;
+  color: #76778c !important;
+}
+
+.space-svg-icon + .dropdown-menu {
+  width: 100%;
+  text-align: right;
+}
+
+.space-svg-icon.dropdown-toggle::after {
+  position: relative;
+  top: 5px;
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-right: 0.1em solid #76778c;
+  border-top: 0.1em solid #76778c;
+  transform: rotate(135deg);
+  margin-right: 0.5em;
+  margin-left: 1em;
+  border-left: 0 !important;
+}
+
+.space-svg-icon span,
+.space-svg-icon button {
+  color: #76778c;
+  font-size: 14px;
+}
+
+.dropdown-item-cars {
+  background-color: #fff;
+  padding: 4px 0;
+  z-index: 1;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  color: #646464;
+  right: 0;
+}
+
+.dropdown-item-cars > a:not(:last-child) {
+  border-bottom: 2px solid #e9e9e9;
+}
+
+.dropdown-item-cars > a {
+  color: #646464;
+  padding: 8px 0;
+}
+
+.slidecontainer {
+  width: 100%;
+  position: relative;
+}
+
+.slider-range-right {
+  position: absolute;
+  top: 10px;
+  right: 0;
+  -webkit-appearance: none;
+  appearance: none;
+}
+input[type="range"]::-webkit-slider-runnable-track {
+  pointer-events: none;
+}
+
+.slider-range-content {
+  margin-bottom: 14px;
+  width: 100%;
+}
+
+.progress {
+  -webkit-appearance: none;
+  width: 0%;
+  height: 3px;
+  border-radius: 5px;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: 0.2s;
+  z-index: 1;
+  margin-top: 52px;
+}
+
+.chrome-web .slider-range-left,
+.chrome-web .slider-range-right {
+  pointer-events: none;
+}
+
+.slider-range-left,
+.slider-range-right {
+  width: 100%;
+  height: 3px;
+  border-radius: 5px;
+  background: #76778c;
+  outline: none;
+  opacity: 0.7;
+  z-index: 1;
+  transition: opacity 0.2s;
+}
+
+.slider-range-left {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  background-color: transparent;
+  -webkit-appearance: none;
+  appearance: none;
+  border-top-left-radius: 20px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  pointer-events: auto;
+  appearance: none;
+  width: 10px;
+  height: 30px;
+  border-top-right-radius: 20px;
+  background: #76778c;
+  cursor: pointer;
+  z-index: 1;
+}
+
+input[type="range"]::-moz-range-thumb {
+  width: 5px;
+  height: 25px;
+  border-top-right-radius: 20px;
+  background: #76778c;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.number1 > div span {
+  color: #175caa;
+}
+
+@media screen and (max-width: 992px) {
+  .filter {
+    max-width: 100%;
+    margin-bottom: 30px;
+    height: 100%;
+    padding-bottom: 0;
+    display: inline-block;
+    border-bottom: 1px solid #ddd;
+    width: 100%;
+    margin-right: 0;
+  }
+}

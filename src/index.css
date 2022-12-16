@@ -1,0 +1,106 @@
+@font-face {
+  font-family: 'dana-fanum';
+  src: url('../src/assets/font/dana/dana-fanum-demibold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'dana-fanum';
+  src: url('../src/assets/font/dana/dana-fanum-bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'dana-fanum';
+  src: url('../src/assets/font/dana/dana-fanum-black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'dana-fanum';
+  src: url('../src/assets/font/dana/dana-fanum-thin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'dana-fanum';
+  src: url('../src/assets/font/dana/dana-fanum-extrabold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'dana-fanum';
+  src: url('../src/assets/font/dana/dana-fanum-ultrabold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'dana-fanum';
+  src: url('../src/assets/font/dana/dana-fanum-medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'dana-fanum';
+  src: url('../src/assets/font/dana/dana-fanum-extralight.woff') format('woff');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'dana-fanum';
+  src: url('../src/assets/font/dana/dana-fanum-light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'dana-fanum';
+  src: url('../src/assets/font/dana/dana-fanum-regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  direction: rtl;
+  background-color: #F5F6FA;
+  font-family: 'dana-fanum';
+}
+
+:root {
+  --bg-white:#fff;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+}
+
+h2 {
+  overflow-wrap: break-word;
+}
+
+a {
+  text-decoration: none;
+}
+
