@@ -74,3 +74,15 @@
     max-width: 100%;
   }
 }
+
+@media screen and (max-width:579px) {
+  .table > thead th {
+    padding-right: 3px;
+}
+}
+
+@media screen and (max-width:416px) {
+  .table-information {
+    background-color: transparent;
+}
+}
